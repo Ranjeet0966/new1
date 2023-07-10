@@ -5,6 +5,6 @@ item.style.visibility="hidden"
 var elm=document.querySelectorAll("li:nth-child(odd)");
 //elm.style.color="green";
 for(let i=0;i<elm.length;i++)
-{
+{ 
     elm[i].style.backgroundColor="green";
 }
